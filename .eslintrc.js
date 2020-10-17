@@ -4,8 +4,11 @@ module.exports = {
     node: true,
   },
   extends: [
-    'plugin:vue/vue3-essential',
-    '@vue/airbnb',
+    // 'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-recommended',
+    // '@vue/airbnb',
+    "prettier",
+    "prettier/vue",
     '@vue/typescript/recommended',
   ],
   parserOptions: {
