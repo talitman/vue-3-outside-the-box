@@ -4,9 +4,9 @@ module.exports = {
     node: true,
   },
   extends: [
-    // 'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-essential',
     'plugin:vue/vue3-recommended',
-    // '@vue/airbnb',
+    '@vue/airbnb',
     "prettier",
     "prettier/vue",
     '@vue/typescript/recommended',
